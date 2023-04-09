@@ -34,7 +34,7 @@ st.write(df)
 
 # Load the the Dataset
 
-claimants= pd.read_csv("/home/chirag/jupyter/be_class/Datasets/claimants.csv")
+claimants= pd.read_csv("claimants.csv")
 claimants.drop(["CASENUM"],inplace = True, axis =1)
 claimants = claimants.dropna()
     
